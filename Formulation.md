@@ -2,8 +2,8 @@
 
 **`I B H W S S`**
 #
-- I → `Project **Idea**`
-- B → `What are we **Building**` 
+- I → `Project *Idea*`
+- B → `What are we *Building*` 
 - H →
 - W →
 - S →
