@@ -1,3 +1,5 @@
+NUMBER_FILE = "numbers.txt"
+
 def number_to_words(num, system='international'):
     """Convert a number into words (supports Indian & International systems)."""
     if num == 0:
@@ -89,6 +91,25 @@ def main():
                 file.write(output + "\n")
             except ValueError:
                 print("Invalid input. Please enter a number.")
+
+        option = input("Enter:\n1. View (for seeing the complete list)\n2. Clear (for clearing the list)\nChioce = ").lower()
+        if option == "view":
+            print("\nList =>>")
+            file = open(NUMBER_FILE, "r")
+            lines = file.readlines()
+            if len(lines) == 0:
+                print("File is empty")
+            else:
+                for line in lines:
+                    print(line.strip())
+            file.close()
+        
+        elif option == "clear":
+            file = open(NUMBER_FILE, "w")
+            file.close()
+            print("File Data Cleared")
+        else: print("Invalid input")
+        
 
 if __name__ == "__main__":
     main()

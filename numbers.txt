@@ -1,2 +1,6 @@
 16250 - Sixteen Thousand Two Hundred Fifty
 164130 - One Hundred Sixty Four Thousand One Hundred Thirty
+5003 - Five Thousand Three
+1230 - One Thousand Two Hundred Thirty
+456 - Four Hundred Fifty Six
+0 - Zero
