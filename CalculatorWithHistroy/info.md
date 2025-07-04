@@ -17,10 +17,10 @@ Welcome to a straightforward command-line calculator built with Python that not 
 
 ## 🚀 How to Run
 
-1.  **Save the Code**: Copy the provided Python code into a file named `calculator.py` (or any `.py` extension you prefer).
+1.  **Save the Code**: Copy the provided Python code into a file named `CalculatorWithHistory.py` (or any `.py` extension you prefer).
 2.  **Run from Terminal**: Open your terminal or command prompt, navigate to the directory where you saved the file, and run:
     ```bash
-    python calculator.py
+    python CalculatorWithHistory.py
     ```
 
 -----
@@ -46,4 +46,4 @@ Once the calculator starts, you'll see a prompt asking for input. Here's how you
 
 ## 💾 History Storage
 
-All your calculations are saved in a file named `history.txt` in the same directory as your `calculator.py` script. This means your history persists even after you close and reopen the calculator.
+All your calculations are saved in a file named `history.txt` in the same directory as your `CalculatorWithHistory.py` script. This means your history persists even after you close and reopen the calculator.
