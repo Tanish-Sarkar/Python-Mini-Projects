@@ -1,4 +1,4 @@
-# 🎮 Mini Python Fun Projects & Games 🐍
+# 🎮 Mini Python Fun Projects, Scripts & Games 🐍
 
 ---
 
